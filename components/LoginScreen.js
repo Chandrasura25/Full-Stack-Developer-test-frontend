@@ -11,7 +11,7 @@ const LoginScreen = ({ navigation }) => {
     email: yup.string().email().required().min(5),
     password: yup.string().required().min(8),
   });
-console.log(navigation)
+  
   const handleLogin = async (values) => { 
     try {
     
