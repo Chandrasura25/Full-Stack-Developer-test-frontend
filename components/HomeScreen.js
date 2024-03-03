@@ -2,7 +2,7 @@
 import { globalStyles } from '../styles/global';
 import { View, Text } from 'react-native';
 
-const HomeScreen = () => {
+const HomeScreen = ({ navigation }) => {
   return (
     <View style={globalStyles.body}>
       <View style={globalStyles.container}>

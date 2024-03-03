@@ -11,7 +11,7 @@ const LoginScreen = ({ navigation }) => {
     email: yup.string().email().required().min(5),
     password: yup.string().required().min(8),
   });
-
+console.log(navigation)
   const handleLogin = async (values) => { 
     try {
     
@@ -26,10 +26,11 @@ const LoginScreen = ({ navigation }) => {
           },
           {text: 'OK', onPress: () => console.log('OK Pressed')},
         ]);
-          console.log("Response:", response.data);
           await AsyncStorage.setItem('token', token);
 
-          navigation.navigate('Home'); 
+       
+            navigation.navigate('Main', { screen: 'Profile' });
+       
        }
     } catch (error) {
       console.error("Error:", error.message);
