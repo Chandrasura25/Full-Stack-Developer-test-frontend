@@ -24,7 +24,6 @@ const ProfileScreen = ({ navigation }) => {
             'Authorization': `Bearer ${token}`
           }
         });
-        console.log(response)
         if (response.ok) {
           // Parse response JSON
           const userData = await response.json();
