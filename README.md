@@ -1,6 +1,3 @@
-Sure, here's a basic template for a README.md file for a React Native frontend project:
-
-```markdown
 # React Native Frontend Project
 
 This is a React Native frontend project that serves as the client-side application for FullStack Developer Test. It is built using React Native, a JavaScript framework for building native mobile applications.
@@ -60,6 +57,3 @@ Contributions are welcome! If you'd like to contribute to this project, feel fre
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-```
-
-Feel free to customize this template to fit the specific details of your project, such as project name, features, folder structure, and contribution guidelines.
